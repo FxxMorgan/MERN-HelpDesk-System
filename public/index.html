@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpDesk - Sistema de Tickets</title>
+    
+    <!-- React y ReactDOM desde CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel Standalone para JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Axios para peticiones HTTP -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Componentes de React -->
+    <script type="text/babel" src="/js/utils/api.js"></script>
+    <script type="text/babel" src="/js/utils/auth.js"></script>
+    <script type="text/babel" src="/js/components/Navbar.js"></script>
+    <script type="text/babel" src="/js/components/Login.js"></script>
+    <script type="text/babel" src="/js/components/Registro.js"></script>
+    <script type="text/babel" src="/js/components/Dashboard.js"></script>
+    <script type="text/babel" src="/js/components/DashboardUsuario.js"></script>
+    <script type="text/babel" src="/js/components/DashboardAgente.js"></script>
+    <script type="text/babel" src="/js/components/DashboardAdmin.js"></script>
+    <script type="text/babel" src="/js/components/CrearTicket.js"></script>
+    <script type="text/babel" src="/js/components/TicketDetalle.js"></script>
+    <script type="text/babel" src="/js/components/ListaTickets.js"></script>
+    <script type="text/babel" src="/js/components/GestionUsuarios.js"></script>
+    <script type="text/babel" src="/js/App.js"></script>
+</body>
+</html>
